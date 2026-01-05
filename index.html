@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TaskForce Headquarters Registration</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="title">Welcome to TaskForce!</h1>
+
+    <div class="form-row">
+      <div>
+        <p class="label">First Name</p>
+        <input type="text" placeholder="First Name" id="firstnameinput" />
+        <p class="error" id="firstnameerror">Enter First Name!</p>
+
+        <p class="label">Email</p>
+        <input
+          id="emailinput"
+          class="emailinpbox"
+          type="email"
+          required
+          placeholder="you@company.domain"
+        />
+        <p class="error" id="emailerror">Enter Email!</p>
+
+        <p class="label">Password</p>
+        <input
+          id="passwordinpbox"
+          class="passwordinputbox"
+          type="password"
+          placeholder="Password"
+        />
+        <p class="error" id="passworderror">Enter Password!</p>
+
+        <p class="label">Country</p>
+        <select id="countryselector">
+          <option value="" disabled selected>--Not Selected--</option>
+          <option value="georgia">Georgia</option>
+          <option value="russia">Russia</option>
+          <option value="unitedstates">United States</option>
+          <option value="unitedkingdom">United Kingdom</option>
+          <option value="philippines">Philippines</option>
+          <option value="spain">Spain</option>
+          <option value="turkey">Turkey</option>
+          <option value="argentina">Argentina</option>
+          <option value="brazil">Brazil</option>
+          <option value="japan">Japan</option>
+          <option value="china">China</option>
+          <option value="maurtius">Maurtius</option>
+          <option value="madagascar">Madagascar</option>
+          <option value="armenia">Armenia</option>
+          <option value="azerbaijan">Azerbaijan</option>
+          <option value="france">France</option>
+          <option value="iran">Iran</option>
+          <option value="ireland">Ireland</option>
+        </select>
+        <p class="error" id="countryerror">Select Country!</p>
+
+        <p class="label">Technologies</p>
+        <div class="form-row2">
+          <div>
+            <p class="label"><input type="checkbox" id="js" /> JavaScript</p>
+            <p class="label"><input type="checkbox" id="cpp" /> C++</p>
+            <p class="label"><input type="checkbox" id="java" /> Java</p>
+            <p class="label"><input type="checkbox" id="html" /> HTML</p>
+          </div>
+          <div>
+            <p class="label"><input type="checkbox" id="css" /> CSS</p>
+            <p class="label"><input type="checkbox" id="php" /> php</p>
+            <p class="label"><input type="checkbox" id="python" /> Python</p>
+            <p class="label"><input type="checkbox" id="none" /> None</p>
+          </div>
+        </div>
+        <p class="error" id="checkboxerror">Select at least one!</p>
+      </div>
+
+      <div>
+        <p class="label">Last Name</p>
+        <input id="lastnameinput" type="text" placeholder="Last Name" />
+        <p class="error" id="lastnameerror">Enter Last Name!</p>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <button id="sign-up-button" type="button">Sign Up</button>
+    </div>
+
+    <footer>
+      <p>
+        &copy; 2026 TaskForce Headquarters team. All rights reserved. Let's
+        investigate Kira case together!
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
