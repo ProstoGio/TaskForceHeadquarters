@@ -7,6 +7,7 @@ coordinating every lead, monitoring suspects, and strategizing responses to unpr
 deliberate, and executed with discretion. Taskforce Headquarters is where strategy meets action, and where high-stakes operations are managed 
 with absolute focus and accountability.
 
-You can register and help us catch kira from this link : https://prostogio.github.io/TaskForceHeadquartersSubmission/
+You can register and help us catch kira from this link : [https://prostogio.github.io/TaskForceHeadquartersSubmission/](https://prostogio.github.io/TaskForceHeadquarters/)
 Let's catch and punsish Kira together!
                                                                 Author: L.
+
