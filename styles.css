@@ -10,7 +10,7 @@ html {
 }
 
 html {
-  scroll-behavior: smooht;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -39,10 +39,11 @@ body {
 }
 
 .error {
-  color: rgba(255, 0, 0, 0);
+  color: rgb(255, 0, 0);
   font-size: 12.5px;
   display: block;
   margin-bottom: 20px;
+  visibility: hidden;
 }
 
 .label {
